@@ -11,6 +11,9 @@ batch and k-choices are optional but are positional argument. For this reason, w
 
 ## EXAMPLES
 `./out 300 90000 three-choice 3`
+
 `./out 300 90000 three-choice 3 10` with 10 runs
+
 `./out 300 300 three-choice 3 10 300` b-batch mode
+
 `./out 300 90000 three-choice 3 10 0 1` k-choice = 1 (see assignment). Note that in this case b-batch is set to 0
